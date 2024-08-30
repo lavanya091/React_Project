@@ -29,7 +29,7 @@ const CheckoutForm = () => {
 
     try {
       // Call the backend to create a PaymentIntent
-      const response = await fetch(`http://localhost:5002/api/payments/create-payment-intent`, {
+      const response = await fetch(`https://react-project-three-beta.vercel.app/api/payments/create-payment-intent`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ amount: parseInt(amount) * 100 }), // Send amount in cents
