@@ -2,8 +2,7 @@
 
 /* Dark background and padding for the navbar */
 .navbar {
-  background-color: black; /* Dark background for navbar */
-  padding: 15px;
+  background-color: black;
   display: flex;
   justify-content: space-between; /* Align brand on the left and toggle on the right */
   align-items: center; /* Vertically center the items */
@@ -27,7 +26,7 @@
 }
 
 .navbar-nav .nav-link {
-  font-size: 25px;
+  font-size: 23px;
   margin-right: 15px;
   color: white; /* White color for links */
   transition: color 0.3s ease;
